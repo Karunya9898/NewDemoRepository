@@ -9,5 +9,7 @@ public class Palindrome{
 		strRev.reverse();
 		if(str.equals(strRev.toString())) System.out.println("Palindrome");
 		else System.out.println("Not Palindrome");
+
+		System.out.println("Build 1 Trigger");
 	}
 }
